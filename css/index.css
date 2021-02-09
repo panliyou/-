@@ -1,0 +1,167 @@
+body {
+  padding-bottom: 1.5rem;
+}
+.header {
+  height: 5.066667rem;
+  width: 10rem;
+}
+.header img {
+  width: 100%;
+}
+.main_nav {
+  margin-top: 0.586667rem;
+}
+.main_nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  display: none;
+}
+.main_nav ul li {
+  width: 25%;
+  height: 2.053333rem;
+}
+.main_nav ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_nav ul li a img {
+  width: 1rem;
+  height: 1rem;
+}
+.main_nav ul li a .title {
+  margin-top: 10px;
+  font-size: 0.32rem;
+  color: #767676;
+}
+.main_nav .current {
+  display: flex;
+}
+.main_nav .nav_tab {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.226667rem;
+}
+.main_nav .nav_tab a {
+  display: block;
+  margin: 0 0.24rem;
+  width: 0.2rem;
+  height: 0.2rem;
+  border-radius: 50%;
+  background-color: #c1b6ba;
+}
+.main_nav .nav_tab .tab_current {
+  background-color: red;
+}
+.split_hr {
+  height: 0.106667rem;
+  background-color: #eaeaea;
+}
+.recommend {
+  display: flex;
+  height: 1.026667rem;
+  line-height: 1.026667rem;
+}
+.recommend h1 {
+  width: 2.133333rem;
+  margin-left: 0.2rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.4rem;
+  color: #f57649;
+}
+.recommend h2 {
+  flex: 1;
+  margin-left: 0.266667rem;
+  font-weight: 400;
+  font-size: 0.293333rem;
+  color: #353535;
+}
+.recommend .menu {
+  width: 1.2rem;
+}
+.recommend .menu ul {
+  height: 1.026667rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recommend .menu ul li {
+  margin: 0.066667rem;
+  width: 0.106667rem;
+  height: 0.106667rem;
+  border-radius: 50%;
+  background-color: #d2d2d2;
+}
+.banner {
+  margin-top: 0.373333rem;
+}
+.banner img {
+  width: 100%;
+}
+.goods {
+  display: flex;
+  margin-top: 10px;
+}
+.goods a {
+  display: block;
+  width: 50%;
+  height: 2.08rem;
+  border: 1px solid #cbcbcb;
+  border-top: 0;
+  padding: 0.133333rem 0.346667rem;
+}
+.goods a:nth-child(2n-1) {
+  border-right: 0;
+}
+.goods a h1 {
+  font-size: 0.346667rem;
+  font-weight: 400;
+  color: #ff8461;
+}
+.goods a h2 {
+  font-size: 0.293333rem;
+  color: #8a8d96;
+  margin-top: 0.186667rem;
+}
+footer {
+  position: fixed;
+  width: 10rem;
+  height: 1.333333rem;
+  bottom: 0;
+  box-shadow: 1px -2px 5px #00000024;
+}
+footer ul {
+  display: flex;
+  background-color: #fff;
+}
+footer ul li {
+  flex: 1;
+}
+footer ul li:nth-child(2) .icon {
+  background-image: url("../images/04-我的个人中心移动端app界面/sort.png");
+}
+footer ul li:nth-child(3) .icon {
+  background-image: url("../images/04-我的个人中心移动端app界面/shopcar.png");
+}
+footer ul li:nth-child(4) .icon {
+  background-image: url("../images/02-首页移动端app界面_02/icon_32.png");
+}
+footer ul li a {
+  display: block;
+  height: 1.333333rem;
+  font-size: 0.346667rem;
+  text-align: center;
+  color: #7f8699;
+}
+footer ul li a .icon {
+  width: 0.613333rem;
+  height: 0.586667rem;
+  background: url("../images/02-首页移动端app界面_02/icon_24.png") 0 0 / 0.586667rem no-repeat;
+  margin: 0.133333rem auto;
+}
+footer ul li .current {
+  color: #ff8d54;
+}

@@ -1,0 +1,195 @@
+body {
+    background-color: #ececec;
+    padding-bottom: 1.333333rem;
+}
+
+header {
+    height: 6.666667rem;
+    background: url("../images/04-我的个人中心移动端app界面/top.png") top / 10rem;
+    // 防止塌陷
+    overflow: hidden;
+    color: #fff;
+
+    .nickname {
+        margin-top: 3.466667rem;
+        text-align: center;
+        font-size: 0.373333rem;
+    }
+
+    .star {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0.213333rem;
+        text-align: center;
+        font-size: 0.32rem;
+        text-shadow: 1px 1px 1px #888;
+    }
+
+    .orders {
+        text-align: center;
+        font-size: 0.32rem;
+        text-shadow: 1px 1px 1px #888;
+
+        .num {
+            font-size: 0.4rem;
+        }
+    }
+}
+
+.vip {
+    margin-bottom: 0.133333rem;
+
+    img {
+        width: 100%;
+    }
+}
+
+.myorder {
+    background-color: #fff;
+    border-bottom: 1px solid #f2f3f5;
+}
+
+.myorder_hd {
+    display: flex;
+    justify-content: space-between;
+    height: 1.333333rem;
+    line-height: 1.333333rem;
+    padding: 0 0.293333rem;
+    font-size: 0.4rem;
+
+    h3 {
+        font-weight: 400;
+        color: #333;
+    }
+
+    a {
+        color: #aaa;
+    }
+}
+
+.myorder_bd {
+    ul {
+        display: flex;
+
+        li {
+            flex: 1;
+
+            a {
+                display: block;
+                text-align: center;
+                color: #555;
+                font-size: 0.346667rem;
+
+                img {
+                    width: 0.813333rem;
+
+                }
+
+                p {
+                    padding: 0.213333rem 0;
+                }
+            }
+        }
+    }
+}
+
+.list {
+    background-color: #fff;
+
+    li {
+        height: 1.346667rem;
+        line-height: 1.333333rem;
+        border-bottom: 1px solid #f2f3f5;
+
+
+        a {
+            position: relative;
+            padding-left: 1.28rem;
+            display: block;
+            // border: 1px solid red;
+            font-size: 0.4rem;
+            color: #555;
+
+            .icon {
+                position: absolute;
+                left: 0;
+                width: 1.333333rem;
+                height: 1.333333rem;
+                background: url("../images/04-我的个人中心移动端app界面/icon5.png") center / 0.693333rem no-repeat;
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                width: 0.24rem;
+                height: 0.386667rem;
+                background: url("../images/04-我的个人中心移动端app界面/right.png") 0 0 ~"/"0.24rem;
+                right: 0.346667rem;
+                top: 50%;
+                transform: translateY(-0.12rem);
+            }
+        }
+
+        &:nth-child(2) a .icon {
+            background-image: url("../images/04-我的个人中心移动端app界面/icon6.png");
+        }
+
+        &:nth-child(3) a .icon {
+            background-image: url("../images/04-我的个人中心移动端app界面/icon7.png");
+        }
+
+        &:nth-child(4) a .icon {
+            background-image: url("../images/04-我的个人中心移动端app界面/icon8.png");
+        }
+
+    }
+
+}
+
+footer {
+    position: fixed;
+    width: 10rem;
+    height: 1.333333rem;
+    bottom: 0;
+    box-shadow: 1px -2px 5px #00000024;
+}
+
+footer ul {
+    display: flex;
+    background-color: #fff;
+
+    li {
+        flex: 1;
+
+        &:nth-child(2) .icon {
+            background-image: url("../images/04-我的个人中心移动端app界面/sort.png");
+        }
+
+        &:nth-child(3) .icon {
+            background-image: url("../images/04-我的个人中心移动端app界面/shopcar.png");
+        }
+
+        &:nth-child(4) .icon {
+            background-image: url("../images/04-我的个人中心移动端app界面/user.png");
+        }
+
+        a {
+            display: block;
+            height: 1.333333rem;
+            font-size: 0.346667rem;
+            text-align: center;
+            color: #7f8699;
+
+            .icon {
+                width: 0.613333rem;
+                height: 0.586667rem;
+                background: url("../images/04-我的个人中心移动端app界面/home.png") 0 0~"/"0.586667rem no-repeat;
+                margin: 0.133333rem auto;
+            }
+        }
+
+        .current {
+            color: #ff8d54;
+        }
+    }
+}

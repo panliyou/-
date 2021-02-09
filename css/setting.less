@@ -1,0 +1,93 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.header {
+    position: relative;
+    height: 1.733333rem;
+    line-height: 1.733333rem;
+    text-align: center;
+    color: #fff;
+    font-size: .466667rem;
+    background: linear-gradient(to right, #ff6a52, #ff9454);
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: .8rem;
+        height: 1.733333rem;
+        margin-left: .266667rem;
+        background: url(../images/05-分类移动端app界面/05-分类移动端app界面_07.png) no-repeat center center;
+    }
+}
+
+.menu {
+    margin-top: .293333rem;
+
+    ul {
+        li {
+            width: 100%;
+
+            a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 .4rem;
+                height: 1.4rem;
+                background-color: #fff;
+                border-bottom: 1px solid #cdcdcd;
+                font-size: .373333rem;
+                color: #353535;
+
+                img {
+                    height: .4rem;
+                }
+            }
+
+            &:nth-child(2) a {
+                border-bottom: 0;
+                margin-bottom: .266667rem;
+            }
+
+            &:nth-child(7) a {
+                border-bottom: 0;
+                margin-bottom: .266667rem;
+
+                .right {
+                    position: relative;
+                    width: .933333rem;
+                    height: .613333rem;
+                    background: linear-gradient(to right, #fe6d52, #fda46a);
+                    border-radius: .4rem;
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        right: 5px;
+                        top: .04rem;
+                        width: .533333rem;
+                        height: .533333rem;
+                        border-radius: 50%;
+                        background-color: #fff;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+.exit {
+    width: 6.56rem;
+    height: 1.066667rem;
+    line-height: 1.066667rem;
+    text-align: center;
+    font-size: .4rem;
+    margin: .826667rem auto;
+    color: #fcfff8;
+    border-radius: .48rem;
+    background: linear-gradient(to right, #ff6a52, #e7864c);
+}

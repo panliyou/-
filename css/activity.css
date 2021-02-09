@@ -1,0 +1,38 @@
+.bg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: -99;
+  height: 17.786667rem;
+  width: 10rem;
+}
+.btn {
+  width: 5.333333rem;
+  height: 1.066667rem;
+  line-height: 1.066667rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 11.813333rem;
+  background-color: #ffd634;
+  color: #fff;
+  border-radius: 0.133333rem;
+  font-size: 0.4rem;
+}
+.activity_role {
+  margin-top: 0.746667rem;
+  padding: 0 1.2rem;
+}
+.activity_role h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.4rem;
+  color: #fff;
+  margin-bottom: 0.733333rem;
+}
+.activity_role p {
+  line-height: 0.533333rem;
+  text-align: center;
+  font-size: 0.293333rem;
+  color: #fff;
+}

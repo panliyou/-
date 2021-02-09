@@ -1,0 +1,113 @@
+body {
+  background: #fafafa url("../images/01-登录注册移动端app界面/your\ logo.png") no-repeat top / 10rem;
+  padding-bottom: 1.826667rem;
+}
+.login_box {
+  width: 8.533333rem;
+  margin: 0 auto;
+  margin-top: 5.24rem;
+  background-color: #fff;
+  border-radius: 0.333333rem;
+  padding: 1.16rem 0.506667rem 0.666667rem 0.506667rem;
+}
+.login_box .user {
+  position: relative;
+  height: 1.16rem;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding-left: 1.386667rem;
+}
+.login_box .user::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.386667rem;
+  height: 1.16rem;
+  background: url('../images/01-登录注册移动端app界面/user.png') no-repeat center 0.346667rem / 0.453333rem;
+}
+.login_box .user input {
+  height: 1.16rem;
+  background-color: #f8f8f8;
+  font-size: 0.346667rem;
+}
+.login_box .password {
+  margin-top: 0.4rem;
+  position: relative;
+  height: 1.16rem;
+  background-color: #f8f8f8;
+  border-radius: 0.133333rem;
+  padding-left: 1.386667rem;
+}
+.login_box .password::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.386667rem;
+  height: 1.16rem;
+  background: url('../images/01-登录注册移动端app界面/lock.png') no-repeat center 0.346667rem / 0.453333rem;
+}
+.login_box .password input {
+  height: 1.066667rem;
+  background-color: #f8f8f8;
+  font-size: 0.346667rem;
+}
+.login_box .login_btn {
+  margin-top: 0.76rem;
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  background: linear-gradient(to right, #9f4ef5, #727eec);
+  border-radius: 0.48rem;
+  font-size: 0.426667rem;
+  color: #fff3ff;
+  text-align: center;
+}
+.login_box .register_user {
+  float: left;
+  margin: 0.613333rem 0 0 0.693333rem;
+  font-size: 0.293333rem;
+  color: #656565;
+}
+.login_box .forget_pwd {
+  float: right;
+  margin: 0.613333rem 0.693333rem 0 0;
+  font-size: 0.293333rem;
+  color: #656565;
+}
+.login_box .other_login {
+  margin-top: 2.026667rem;
+  font-size: 0.346667rem;
+  color: #cfd5e1;
+}
+.login_box .other_login .other_hd {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.48rem;
+}
+.login_box .other_login .other_hd .left_hr {
+  height: 0.013333rem;
+  margin-top: 0.213333rem;
+  width: 1.946667rem;
+  background-color: #cfd5e1;
+}
+.login_box .other_login .other_hd .right_hr {
+  height: 0.013333rem;
+  margin-top: 0.213333rem;
+  width: 1.946667rem;
+  background-color: #cfd5e1;
+}
+.login_box .other_login .other_body {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.666667rem;
+}
+.login_box .other_login .other_body a {
+  display: block;
+  width: 1.173333rem;
+  height: 1.173333rem;
+}
+.login_box .other_login .other_body a img {
+  width: 100%;
+}

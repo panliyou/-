@@ -1,0 +1,151 @@
+body {
+  background-color: #f1f1f1;
+  padding-bottom: 1.5rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 1.733333rem;
+  line-height: 1.733333rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.466667rem;
+  background: linear-gradient(to right, #ff6a52, #ff9454);
+}
+.header .header_left {
+  display: block;
+  width: 0.8rem;
+  margin-left: 0.266667rem;
+}
+.header .header_left img {
+  height: 0.48rem;
+}
+.header .header_right {
+  display: block;
+  width: 0.8rem;
+  height: 1.733333rem;
+  margin-right: 0.266667rem;
+}
+.header .header_right img {
+  height: 0.64rem;
+}
+.goods .goods_hd {
+  display: flex;
+  margin: 0.36rem 0;
+}
+.goods .goods_hd a {
+  display: block;
+  height: 0.666667rem;
+  line-height: 0.666667rem;
+  font-size: 0.373333rem;
+  padding: 0 0.4rem;
+}
+.goods .goods_hd a:nth-child(1) {
+  border-left: 0.08rem solid #f9814c;
+  color: #ff7d4f;
+}
+.goods .goods_content {
+  display: flex;
+}
+.goods .goods_content .goods_tab {
+  margin-top: 0.133333rem;
+  width: 2.133333rem;
+  background-color: #fff;
+}
+.goods .goods_content .goods_tab ul {
+  display: flex;
+  flex-direction: column;
+}
+.goods .goods_content .goods_tab ul li {
+  height: 1.333333rem;
+  line-height: 1.333333rem;
+  text-align: center;
+  width: 2.133333rem;
+  font-size: 0.32rem;
+  background-color: #fff;
+}
+.goods .goods_content .goods_body {
+  flex: 1;
+  margin-left: 0.293333rem;
+}
+.goods .goods_content .goods_body .banner {
+  margin-right: 0.16rem;
+}
+.goods .goods_content .goods_body .banner img {
+  width: 100%;
+}
+.goods .goods_content .goods_body .recomment {
+  margin-top: 15px;
+}
+.goods .goods_content .goods_body .recomment .recomment_hd {
+  height: 1.146667rem;
+  line-height: 1.146667rem;
+  font-size: 0.346667rem;
+}
+.goods .goods_content .goods_body .recomment .recomment_body {
+  padding: 0 0.693333rem;
+  margin-right: 0.16rem;
+  background-color: #fff;
+  border-radius: 0.16rem;
+}
+.goods .goods_content .goods_body .recomment .recomment_body ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.goods .goods_content .goods_body .recomment .recomment_body ul li {
+  width: 33.3%;
+}
+.goods .goods_content .goods_body .recomment .recomment_body ul li a {
+  display: block;
+  text-align: center;
+  height: 2.76rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.266667rem;
+  color: #6e6e6e;
+}
+.goods .goods_content .goods_body .recomment .recomment_body ul li a img {
+  width: 1.333333rem;
+  margin-bottom: 0.426667rem;
+}
+footer {
+  position: fixed;
+  width: 10rem;
+  height: 1.333333rem;
+  bottom: 0;
+  box-shadow: 1px -2px 5px #00000024;
+}
+footer ul {
+  display: flex;
+  background-color: #fff;
+}
+footer ul li {
+  flex: 1;
+}
+footer ul li:nth-child(2) .icon {
+  background-image: url("../images/05-分类移动端app界面/05-分类移动端app界面_48.png");
+}
+footer ul li:nth-child(3) .icon {
+  background-image: url("../images/04-我的个人中心移动端app界面/shopcar.png");
+}
+footer ul li:nth-child(4) .icon {
+  background-image: url("../images/05-分类移动端app界面/05-分类移动端app界面_45.png");
+}
+footer ul li a {
+  display: block;
+  height: 1.333333rem;
+  font-size: 0.346667rem;
+  text-align: center;
+  color: #7f8699;
+}
+footer ul li a .icon {
+  width: 0.613333rem;
+  height: 0.586667rem;
+  background: url("../images/04-我的个人中心移动端app界面/home.png") 0 0 / 0.586667rem no-repeat;
+  margin: 0.133333rem auto;
+}
+footer ul li .current {
+  color: #ff8d54;
+}

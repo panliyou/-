@@ -1,0 +1,146 @@
+body {
+  background-color: #f5f5f5;
+  padding-bottom: 1.5rem;
+}
+.header {
+  display: flex;
+  margin-bottom: 0.066667rem;
+  padding: 0 20px;
+  justify-content: space-between;
+  height: 1.733333rem;
+  line-height: 1.733333rem;
+  color: #fafeff;
+  background: linear-gradient(to right, #ff6a52, #ff9454);
+}
+.header .left {
+  font-size: 0.36rem;
+}
+.header .center {
+  font-size: 0.4rem;
+}
+.header .right ul {
+  display: flex;
+  height: 1.733333rem;
+  align-items: center;
+}
+.header .right ul li {
+  width: 0.106667rem;
+  height: 0.106667rem;
+  border-radius: 50%;
+  margin-right: 0.133333rem;
+  background-color: #fff;
+}
+.goods_content {
+  position: relative;
+  display: flex;
+  height: 3.706667rem;
+  background-color: #fff;
+  padding: 0.346667rem 0.48rem 0.533333rem 0.373333rem;
+  margin-bottom: 0.293333rem;
+}
+.goods_content .left .select {
+  margin-top: 1.2rem;
+  width: 0.48rem;
+  height: 0.48rem;
+  border-radius: 50%;
+  border: 1px solid #7d7d7d;
+}
+.goods_content .left .current {
+  border: 0;
+  background-color: #ff7a55;
+  color: #fff;
+}
+.goods_content .left .current::before {
+  content: "√";
+  font-size: 30px;
+  margin-left: 0.066667rem;
+}
+.goods_content .center {
+  margin: 0 0.36rem 0 0.293333rem;
+}
+.goods_content .center img {
+  width: 2.933333rem;
+}
+.goods_content .right .goods_title {
+  width: 3.733333rem;
+  font-size: 0.346667rem;
+  color: #363636;
+}
+.goods_content .right .color {
+  margin-top: 0.24rem;
+  color: #666666;
+  font-size: 0.24rem;
+}
+.goods_content .right .price {
+  margin-top: 0.4rem;
+  color: #ff3642;
+  font-size: 0.306667rem;
+}
+.goods_content .right .old_price {
+  text-decoration: line-through;
+  margin-top: 0.133333rem;
+  color: #a2a2a2;
+  font-size: 0.306667rem;
+}
+.goods_content .goods_num {
+  position: absolute;
+  bottom: 0.533333rem;
+  right: 0.466667rem;
+  display: flex;
+  height: 0.506667rem;
+  align-items: center;
+}
+.goods_content .goods_num .left,
+.goods_content .goods_num .right {
+  width: 0.506667rem;
+  height: 0.506667rem;
+  line-height: 0.506667rem;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #c5c5c5;
+  font-size: 0.266667rem;
+}
+.goods_content .goods_num .num {
+  margin: 0 0.746667rem;
+  font-size: 0.346667rem;
+  font-weight: 700;
+}
+footer {
+  position: fixed;
+  width: 10rem;
+  height: 1.333333rem;
+  bottom: 0;
+  box-shadow: 1px -2px 5px #00000024;
+}
+footer ul {
+  display: flex;
+  background-color: #fff;
+}
+footer ul li {
+  flex: 1;
+}
+footer ul li:nth-child(2) .icon {
+  background-image: url("../images/04-我的个人中心移动端app界面/sort.png");
+}
+footer ul li:nth-child(3) .icon {
+  background-image: url("../images/08-购物车移动端app界面/08-购物车移动端app界面_09.png");
+}
+footer ul li:nth-child(4) .icon {
+  background-image: url("../images/08-购物车移动端app界面/08-购物车移动端app界面_11.png");
+}
+footer ul li a {
+  display: block;
+  height: 1.333333rem;
+  font-size: 0.346667rem;
+  text-align: center;
+  color: #7f8699;
+}
+footer ul li a .icon {
+  width: 0.613333rem;
+  height: 0.586667rem;
+  background: url("../images/08-购物车移动端app界面/08-购物车移动端app界面_14.png") 0 0 / 0.586667rem no-repeat;
+  margin: 0.133333rem auto;
+}
+footer ul li .current {
+  color: #ff8d54;
+}

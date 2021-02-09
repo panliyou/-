@@ -1,0 +1,206 @@
+body {
+    padding-bottom: 1.5rem;
+
+}
+
+.header {
+    height: 5.066667rem;
+    width: 10rem;
+
+    img {
+        width: 100%;
+    }
+}
+
+.main_nav {
+    margin-top: .586667rem;
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        display: none;
+
+        li {
+            width: 25%;
+            height: 2.053333rem;
+
+
+            a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 1rem;
+                    height: 1rem;
+                }
+
+                .title {
+                    margin-top: 10px;
+                    font-size: .32rem;
+                    color: #767676;
+                }
+            }
+        }
+    }
+
+    .current {
+        display: flex;
+    }
+
+    .nav_tab {
+        display: flex;
+        justify-content: center;
+        margin-bottom: .226667rem;
+
+        a {
+            display: block;
+            margin: 0 .24rem;
+            width: .2rem;
+            height: .2rem;
+            border-radius: 50%;
+            background-color: #c1b6ba;
+        }
+
+        .tab_current {
+            background-color: red;
+        }
+    }
+
+}
+
+.split_hr {
+    height: .106667rem;
+    background-color: #eaeaea;
+}
+
+.recommend {
+    display: flex;
+    height: 1.026667rem;
+    line-height: 1.026667rem;
+
+    h1 {
+        width: 2.133333rem;
+        margin-left: .2rem;
+        text-align: center;
+        font-weight: 400;
+        font-size: .4rem;
+        color: #f57649;
+    }
+
+    h2 {
+        flex: 1;
+        margin-left: .266667rem;
+        font-weight: 400;
+        font-size: .293333rem;
+        color: #353535;
+    }
+
+    .menu {
+        width: 1.2rem;
+
+        ul {
+            height: 1.026667rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                margin: .066667rem;
+                width: .106667rem;
+                height: .106667rem;
+                border-radius: 50%;
+                background-color: #d2d2d2;
+            }
+        }
+
+    }
+}
+
+.banner {
+    margin-top: .373333rem;
+
+    img {
+        width: 100%;
+    }
+}
+
+.goods {
+    display: flex;
+    margin-top: 10px;
+
+    a {
+        display: block;
+        width: 50%;
+        height: 2.08rem;
+        border: 1px solid #cbcbcb;
+        border-top: 0;
+        padding: .133333rem .346667rem;
+
+        &:nth-child(2n-1) {
+            border-right: 0;
+        }
+
+        h1 {
+            font-size: .346667rem;
+            font-weight: 400;
+            color: #ff8461;
+        }
+
+        h2 {
+            font-size: .293333rem;
+            color: #8a8d96;
+            margin-top: .186667rem;
+        }
+    }
+}
+
+footer {
+    position: fixed;
+    width: 10rem;
+    height: 1.333333rem;
+    bottom: 0;
+    box-shadow: 1px -2px 5px #00000024;
+}
+
+footer ul {
+    display: flex;
+    background-color: #fff;
+
+    li {
+        flex: 1;
+
+        &:nth-child(2) .icon {
+            background-image: url("../images/04-我的个人中心移动端app界面/sort.png");
+        }
+
+        &:nth-child(3) .icon {
+            background-image: url("../images/04-我的个人中心移动端app界面/shopcar.png");
+        }
+
+        &:nth-child(4) .icon {
+            background-image: url("../images/02-首页移动端app界面_02/icon_32.png");
+        }
+
+        a {
+            display: block;
+            height: 1.333333rem;
+            font-size: 0.346667rem;
+            text-align: center;
+            color: #7f8699;
+
+            .icon {
+                width: 0.613333rem;
+                height: 0.586667rem;
+                background: url("../images/02-首页移动端app界面_02/icon_24.png") 0 0~"/"0.586667rem no-repeat;
+                margin: 0.133333rem auto;
+            }
+        }
+
+        .current {
+            color: #ff8d54;
+        }
+    }
+}

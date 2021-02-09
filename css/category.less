@@ -1,0 +1,194 @@
+body {
+    background-color: #f1f1f1;
+    padding-bottom: 1.5rem;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 1.733333rem;
+    line-height: 1.733333rem;
+    text-align: center;
+    color: #fff;
+    font-size: .466667rem;
+    background: linear-gradient(to right, #ff6a52, #ff9454);
+
+    .header_left {
+        display: block;
+        width: .8rem;
+        margin-left: .266667rem;
+
+        img {
+            height: .48rem;
+        }
+
+    }
+
+    .header_right {
+        display: block;
+        width: .8rem;
+        height: 1.733333rem;
+        margin-right: .266667rem;
+
+        img {
+            height: .64rem;
+        }
+
+    }
+}
+
+.goods {
+    .goods_hd {
+        display: flex;
+        margin: .36rem 0;
+
+        a {
+            display: block;
+            height: .666667rem;
+            line-height: .666667rem;
+            font-size: .373333rem;
+            padding: 0 .4rem;
+
+        }
+
+        a:nth-child(1) {
+            border-left: .08rem solid #f9814c;
+            color: #ff7d4f;
+        }
+    }
+
+    .goods_content {
+        display: flex;
+
+        .goods_tab {
+
+            margin-top: .133333rem;
+            width: 2.133333rem;
+            background-color: #fff;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+
+                li {
+                    height: 1.333333rem;
+                    line-height: 1.333333rem;
+                    text-align: center;
+                    width: 2.133333rem;
+                    font-size: .32rem;
+                    background-color: #fff;
+                }
+            }
+        }
+
+        .goods_body {
+            flex: 1;
+            margin-left: .293333rem;
+
+            .banner {
+                margin-right: .16rem;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .recomment {
+                margin-top: 15px;
+
+                .recomment_hd {
+                    height: 1.146667rem;
+                    line-height: 1.146667rem;
+                    font-size: .346667rem;
+                }
+
+                .recomment_body {
+                    padding: 0 .693333rem;
+                    margin-right: .16rem;
+                    background-color: #fff;
+                    border-radius: .16rem;
+
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        li {
+                            width: 33.3%;
+
+                            a {
+                                display: block;
+                                text-align: center;
+                                height: 2.76rem;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: .266667rem;
+                                color: #6e6e6e;
+
+                                img {
+                                    width: 1.333333rem;
+                                    margin-bottom: .426667rem;
+                                }
+
+                            }
+
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+footer {
+    position: fixed;
+    width: 10rem;
+    height: 1.333333rem;
+    bottom: 0;
+    box-shadow: 1px -2px 5px #00000024;
+}
+
+footer ul {
+    display: flex;
+    background-color: #fff;
+
+    li {
+        flex: 1;
+
+        &:nth-child(2) .icon {
+            background-image: url("../images/05-分类移动端app界面/05-分类移动端app界面_48.png");
+        }
+
+        &:nth-child(3) .icon {
+            background-image: url("../images/04-我的个人中心移动端app界面/shopcar.png");
+        }
+
+        &:nth-child(4) .icon {
+            background-image: url("../images/05-分类移动端app界面/05-分类移动端app界面_45.png");
+        }
+
+        a {
+            display: block;
+            height: 1.333333rem;
+            font-size: 0.346667rem;
+            text-align: center;
+            color: #7f8699;
+
+            .icon {
+                width: 0.613333rem;
+                height: 0.586667rem;
+                background: url("../images/04-我的个人中心移动端app界面/home.png") 0 0~"/"0.586667rem no-repeat;
+                margin: 0.133333rem auto;
+            }
+        }
+
+        .current {
+            color: #ff8d54;
+        }
+    }
+}

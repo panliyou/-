@@ -1,0 +1,222 @@
+body {
+  padding-bottom: 1.12rem;
+}
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 1.733333rem;
+  line-height: 1.733333rem;
+  color: #fff;
+  font-size: 0.466667rem;
+  background: linear-gradient(to right, #ff6a52, #ff9454);
+}
+.header .left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.8rem;
+  height: 1.733333rem;
+  margin-left: 0.266667rem;
+}
+.header .left img {
+  height: 0.506667rem;
+}
+.goods_content {
+  margin-top: 0.2rem;
+  text-align: center;
+}
+.goods_content .goods_pic ul li {
+  margin: 0 2.333333rem;
+  display: none;
+}
+.goods_content .goods_pic ul li a img {
+  width: 100%;
+}
+.goods_content .goods_pic ul .current {
+  display: block;
+}
+.goods_content .goods_tap {
+  margin-top: 0.346667rem;
+}
+.goods_content .goods_tap ul {
+  display: flex;
+  justify-content: center;
+}
+.goods_content .goods_tap ul li {
+  width: 0.133333rem;
+  height: 0.133333rem;
+  background-color: #cdcdcd;
+  border-radius: 50%;
+  margin: 0.133333rem;
+}
+.goods_content .goods_tap ul .current {
+  background-color: #fb784a;
+}
+.goods_detail {
+  position: relative;
+  margin-top: 0.346667rem;
+  height: 2.666667rem;
+  padding: 0.4rem 0.293333rem;
+  background-color: #fafbfd;
+}
+.goods_detail .goods_title {
+  font-size: 0.4rem;
+  color: #5c5d5f;
+}
+.goods_detail .sub_title {
+  display: flex;
+  height: 0.346667rem;
+  line-height: 0.346667rem;
+  margin-top: 0.213333rem;
+}
+.goods_detail .sub_title div {
+  font-size: 0.32rem;
+  color: #c6c7c9;
+}
+.goods_detail .sub_title .split_hr {
+  margin: 0.04rem 0.2rem;
+  height: 0.266667rem;
+  width: 0.08rem;
+  background-color: #fe8050;
+}
+.goods_detail .goods_other {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.453333rem;
+}
+.goods_detail .goods_other .left {
+  font-size: 0.4rem;
+  color: #fb824b;
+}
+.goods_detail .share {
+  position: absolute;
+  top: 1.466667rem;
+  right: 0;
+  width: 1.6rem;
+}
+.goods_detail .share a {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.32rem;
+  align-items: center;
+  color: #b2b4b3;
+}
+.goods_detail .share a img {
+  width: 0.533333rem;
+}
+.serve {
+  height: 1.333333rem;
+  line-height: 1.333333rem;
+  background-color: #fff6f7;
+  padding: 0 0.466667rem;
+}
+.serve ul {
+  display: flex;
+  justify-content: space-between;
+}
+.serve ul li a {
+  font-size: 0.293333rem;
+  color: #b3b2b0;
+}
+.serve ul li a img {
+  width: 0.32rem;
+  margin-right: 0.186667rem;
+}
+.activity {
+  display: flex;
+  height: 1.333333rem;
+  align-items: center;
+  border-bottom: 0.026667rem solid #f3f4f6;
+}
+.activity .title {
+  margin-right: 0.88rem;
+  font-size: 0.4rem;
+  color: #666867;
+}
+.activity .sub_title {
+  margin-right: 0.453333rem;
+  font-size: 0.293333rem;
+  color: #babbbd;
+}
+.store {
+  display: flex;
+  height: 2.08rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.store .left {
+  display: flex;
+}
+.store .left img {
+  height: 1.333333rem;
+}
+.store .left .title {
+  margin-left: 0.4rem;
+}
+.store .left .title h1 {
+  font-weight: 400;
+  font-size: 0.346667rem;
+}
+.store .left .title p {
+  margin-top: 0.213333rem;
+  font-size: 0.24rem;
+  color: #b3b4b6;
+}
+.store .right a {
+  display: block;
+  position: relative;
+  width: 2.666667rem;
+  height: 2.08rem;
+  line-height: 2.08rem;
+  font-size: 0.373333rem;
+  color: #fe7153;
+}
+.store .right a img {
+  margin-left: 0.266667rem;
+  width: 0.266667rem;
+}
+footer {
+  position: fixed;
+  min-width: 320px;
+  max-width: 750px;
+  width: 100%;
+  bottom: 0;
+  background-color: #feeeee;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer ul li {
+  flex: 1;
+}
+footer ul li a {
+  display: block;
+  text-align: center;
+  height: 1.146667rem;
+  line-height: 1.146667rem;
+  font-size: 0.266667rem;
+  color: #908a8a;
+}
+footer ul li a img {
+  height: 0.373333rem;
+  margin-right: 0.346667rem;
+}
+footer ul .add_cart {
+  height: 1.146667rem;
+  line-height: 1.146667rem;
+  text-align: center;
+  background-color: #ffbb36;
+  font-size: 0.346667rem;
+  color: #f9feff;
+}
+footer ul .buy_now {
+  height: 1.146667rem;
+  line-height: 1.146667rem;
+  text-align: center;
+  background: linear-gradient(to right, #ff6b57, #ff9454);
+  font-size: 0.346667rem;
+  color: #f9feff;
+}
